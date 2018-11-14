@@ -119,3 +119,7 @@ body{
     padding-right: 25px;
     border: 1px solid #FFF;
 }
+.ad{
+    height: 310px;
+    overflow: hidden; /*超出div的部分图片隐藏*/
+}
