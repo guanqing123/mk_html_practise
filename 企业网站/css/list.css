@@ -1,0 +1,21 @@
+.list_main{
+    min-height: 350px;/*min-height在IE6中不支持*/
+    _height:350px; /*兼容IE6*/
+    background-color: #FFF;
+    margin-top: 10px;
+}
+.news_type{
+    width: 220px;
+    height: 350px;
+    border: 1px solid #E8E8E8;
+    background-color: #9FC;
+    float: left;
+}
+.list_box{
+    width: 770px;
+    min-height: 350px;/*min-height在IE6中不支持*/
+    _height:350px; /*兼容IE6*/
+    background-color: #F9F;
+    border: 1px solid #E8E8E8;
+    float: right;
+}
