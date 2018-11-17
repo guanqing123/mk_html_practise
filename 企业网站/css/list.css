@@ -8,14 +8,69 @@
     width: 220px;
     height: 350px;
     border: 1px solid #E8E8E8;
-    background-color: #9FC;
     float: left;
 }
 .list_box{
     width: 770px;
     min-height: 350px;/*min-height在IE6中不支持*/
     _height:350px; /*兼容IE6*/
-    background-color: #F9F;
     border: 1px solid #E8E8E8;
     float: right;
+}
+.news_type h2{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666;
+    background: url("../images/titile_bg.gif") repeat-x;
+    padding-left: 20px;
+}
+.news_type_content{
+    height: 265px;
+    background: url("../images/content_bg.gif") repeat-x;
+}
+.news_type_content li {
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+}
+.news_type_content li a{
+    color: #666;
+    text-decoration: none;
+    background: url("../images/li_bg.gif") no-repeat left center;
+    padding-left: 15px;
+    display: block;
+}
+.news_type_content li a:hover{
+    color: #009CDF;
+    background: #F2F2F2 url("../images/li_bg2.gif") no-repeat left center;
+}
+.list_box h2{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666;
+    background: url("../images/type_bg.png") repeat-x;
+    padding-left: 20px;
+}
+.page{
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+.page a{
+    display: inline-block; /*兼容IE8,和兼容模式*/
+    border: 1px solid #E8E8E8;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.page a:link,.page a:visited{
+    color: #000;
+}
+.page a:hover,.page a:active{
+    color: #FFF;
+    background-color: #cc1b1b;
 }
