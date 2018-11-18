@@ -67,5 +67,5 @@
     text-decoration: none;
     color: #333333;
     background-color: brown;
-    display: block;
+    display: block; /*由于a标签属于内联元素，无高度和宽度属性，因此控制鼠标经过状态改变背景颜色时，仅在有文字的地方显示背景颜色。解决的办法是把a标签变为块级元素，display:block*/
 }
