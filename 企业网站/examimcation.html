@@ -4,6 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
     <link rel="stylesheet" href="css/examination.css" type="text/css" />
     <title>编程挑战</title>
+    <!--myFocus库文件引入-->
+    <script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+    <script type="text/javascript" src="js/mf-pattern/mF_YSlider.js"></script>
+    <link rel="stylesheet" href="js/mf-pattern/mF_YSlider.css" type="text/css" />
+    <script type="text/javascript">
+        myFocus.set({
+            id : 'picBox'
+        });
+    </script>
 </head>
     <div class="parent">
         <div class="header">
@@ -22,9 +31,46 @@
             </div>
         </div>
         <div class="content">
-            <div class="slider"></div>
-            <div class="news_title"></div>
-            <div class="main_list"></div>
+            <div class="slider" id="picBox">
+                <div class="loading"><img src="http://img.mukewang.com/53edad8c000175cb00300029.jpg" alt="图片加载中" /></div>
+                <div class="pic">
+                    <ul>
+                        <li><img src="http://img.mukewang.com/53edad1600019ae910000310.jpg" /></li>
+                        <li><img src="http://img.mukewang.com/53edad2c0001b61310000314.jpg" /></li>
+                        <li><img src="http://img.mukewang.com/53edad3e0001afad10000318.jpg" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news_title">滚动新闻</div>
+                <div class="news_content">这是滚动新闻</div>
+            </div>
+            <div class="main_list">
+                <div class="main_first">
+                    <div class="main_first_top">
+                        <img src="http://img.mukewang.com/53edad54000119fb03300130.jpg" />
+                    </div>
+                    <div class="main_first_bottom">
+                        <p>玩转BootStrap</p>
+                    </div>
+                </div>
+                <div class="main_second">
+                    <div class="main_second_top">
+                        <img src="http://img.mukewang.com/53edad690001260a03300130.jpg" />
+                    </div>
+                    <div class="main_second_bottom">
+                        <p>企业网站案例</p>
+                    </div>
+                </div>
+                <div class="main_third">
+                    <div class="main_third_top">
+                        <img src="http://img.mukewang.com/53edad7a0001cde803300130.jpg" />
+                    </div>
+                    <div class="main_third_bottom">
+                        <p>Javascript基础</p>
+                    </div>
+                </div>
+            </div>
             <div class="detail_list"></div>
         </div>
         <div class="copyright"></div>
