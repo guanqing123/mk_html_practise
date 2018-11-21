@@ -42,7 +42,7 @@
 
 .content{
     width: 100%;
-    height: 880px;
+    height: 910px;
     border: 1px solid green;
 }
 
@@ -151,8 +151,32 @@
 .detail_first{
     width: 330px;
     height: 330px;
-    background-color: #0099ff;
     float: left;
+}
+.detail_first_top{
+    width: 100%;
+    height: 39px;
+    background-color: #990000;
+}
+.detail_first_top p{
+    height: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin: 0 0 0 20px;
+}
+.detail_first_bottom{
+    width: 100%;
+    height: 291px;
+}
+.detail_first_bottom li{
+    list-style-type: none;
+}
+.date{
+    float: left;
+    width: 40px;
+    height: 80px;
+    background-color: #990000;
+
 }
 .detail_second{
     width: 330px;
