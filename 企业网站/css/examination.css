@@ -153,10 +153,12 @@
     height: 330px;
     float: left;
 }
-.detail_first_top{
-    width: 100%;
-    height: 39px;
-    background-color: #990000;
+.detail_first h3{
+    background-color: #BD3847;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-indent: 2em;
 }
 .detail_first_top p{
     height: 39px;
